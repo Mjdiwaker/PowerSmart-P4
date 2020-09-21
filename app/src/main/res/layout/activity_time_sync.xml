@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ToolbarStyle"
+            app:titleTextColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_margin="@dimen/dp20"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:padding="@dimen/dp5"
+            android:text="Current Time:"
+            android:textColor="#000"
+            android:textSize="@dimen/dp14"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_device_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:padding="@dimen/dp5"
+            android:text="Local Date and Time"
+            android:textSize="@dimen/text_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_system_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_device"
+        android:layout_margin="@dimen/dp20"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:padding="@dimen/dp5"
+            android:text="@string/system_time"
+            android:textColor="#000"
+            android:textSize="@dimen/dp14"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_plug_Time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:padding="@dimen/dp5"
+            android:text="System Time"
+            android:textSize="@dimen/text_large" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_sync_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_system_time"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/dp10"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:lines="2"
+        android:padding="@dimen/dp5"
+        android:text="@string/set_time_syn"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_large" />
+
+</RelativeLayout>

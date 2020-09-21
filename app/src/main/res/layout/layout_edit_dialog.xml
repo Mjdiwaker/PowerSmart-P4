@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="Enter the Title"
+
+        android:textSize="@dimen/text_large"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp5"
+            android:layout_marginRight="@dimen/dp5"
+
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/id_dialog_msg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginRight="@dimen/dp20"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:paddingBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:singleLine="true"
+
+
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- <View
+             style="?attr/view_background_style"
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_gravity="left|bottom"
+             android:layout_marginLeft="@dimen/dp20"
+             android:layout_marginRight="@dimen/dp20"
+             android:background="@color/blue_dark_textcolor" />-->
+
+        <ImageView
+            android:id="@+id/iv_password_visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/dp20"
+
+            android:padding="@dimen/dp8"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dp40"
+        android:background="@color/colorDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_cancel_txt_view"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="No"
+
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorDivider" />
+
+        <TextView
+            android:id="@+id/id_delete_txt_view"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Yes"
+
+            android:textSize="@dimen/text_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

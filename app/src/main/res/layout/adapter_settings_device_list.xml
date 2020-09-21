@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_adapter_settings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_device_logo_settings"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:layout_gravity="center"
+
+             />
+        <!--android:src="@drawable/logo"-->
+        <TextView
+            android:id="@+id/tv_device_name_setting_adapter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="device"
+            android:textColor="@android:color/black"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/iv_settings_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/setting_grey" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="@dimen/dp20"
+            android:layout_gravity="center_vertical"
+            android:background="#8C8C8C" />
+
+        <ImageView
+            android:id="@+id/iv_settings_edit_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/edit_grey" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_device_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp10">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:orientation="horizontal"
+       >
+
+        <ImageView
+            android:id="@+id/iv_device_logo"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/tv_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="Device "
+
+            android:layout_marginLeft="@dimen/dp15"
+            android:textColor="@android:color/black"
+            android:layout_weight="0.8"
+            android:textStyle="normal" />
+        <ImageView
+            android:layout_margin="@dimen/dp1"
+            android:id="@+id/iv_device_info"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:visibility="visible"
+            android:src="@drawable/thermo" />
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sb_device"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp30"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+
+
+            app:kswThumbDrawable="@drawable/slider_handle_selector"
+            app:kswThumbHeight="@dimen/dp28"
+            app:kswThumbWidth="@dimen/dp30" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

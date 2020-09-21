@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neotechindia.plugsmart">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.neotechindia.plugsmart.application.PlugSmartApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/lugo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logocircle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.neotechindia.plugsmart.activity.ScanActivity"></activity>
+        <activity android:name="com.neotechindia.plugsmart.activity.UpdateLic" />
+        <activity android:name="com.neotechindia.plugsmart.activity.Weather" />
+        <activity android:name="com.neotechindia.plugsmart.activity.Contact_Us" />
+        <activity android:name="com.neotechindia.plugsmart.activity.Edge_discovery" />
+        <activity android:name="com.neotechindia.plugsmart.activity.Select_Radio" /> <!-- Activities start -->
+        <activity
+            android:name="com.neotechindia.plugsmart.activity.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neotechindia.plugsmart.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.neotechindia.plugsmart.activity.SchedulesViewActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.SettingsActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.SchedulesCreateActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.ViewRegistrationActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.NetworkSettingsActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.BuyerRegistrationActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.ClientRegistrationActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.AddGadgetActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.ForgotPasswordActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.ChangePasswordActivity" />
+        <activity android:name="com.neotechindia.plugsmart.barcode.BarcodeScannerActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.TimerActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.AboutActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.TimeSyncActivity" />
+        <activity android:name="com.neotechindia.plugsmart.activity.ImagePick" /> <!-- Activities End -->
+        <!-- Recievers Start -->
+        <receiver android:name="com.neotechindia.plugsmart.receiver.MyWifiReceiver" /> <!-- Receivers End -->
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0f65e059b3acd447c8413dbc6aa3c49e17f00d1d" />
+
+        <activity android:name="com.neotechindia.plugsmart.activity.Registration_data" />
+    </application>
+
+</manifest>

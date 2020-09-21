@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">PowerSmartP4</string>
+    <string name="app_name_test">PlugSmart</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name_pro">PowerSmart P4 Pro</string>
+    <!--<string name="app_name">PlugSmart</string>-->
+    <!--<string name="app_name_test">PlugSmart-Test</string>-->
+    <!--<string name="app_name_pro">PlugSmart-Pro</string>-->
+    <string name="title_activity_main">PowerSmart
+    </string>
+    <string name="pleaseWait">Please Wait...</string>
+    <string name="register">Register</string>
+    <string name="license_number">License Number</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="admin_pwd">Admin Password</string>
+    <string name="e_mail_id">Email Id</string>
+    <string name="mob_no">Mobile Number</string>
+    <string name="somethingWentWrong">Something Went Wrong...</string>
+    <string name="uniqueId">Mobile Number or Name</string>
+    <string name="title_activity_buyer_registration">Buyer Registration</string>
+    <string name="title_activity_customer_support">Customer Service</string>
+    <string name="title_activity_Select_edge">Select any one</string>
+    <string name="title_activity_Edge">Edge</string>
+    <string name="alert">Alert!!!</string>
+    <string name="allowPermission">Allow Storage Permission to use app</string>
+    <string name="NoMoreClientCanRegister">No more client can registered</string>
+    <string name="DoyouWantToDeleteRegisterDevice">Do You Want to delete Register Devices</string>
+    <string name="EnterAdminPassword">Enter Admin Password</string>
+    <string name="title_activity_client_registration">Client Registration</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="submitbtn">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgetpassword">Forgot Password</string>
+    <string name="label_ap_mode">Local Wifi</string>
+    <string name="label_station_mode">Internet Wifi</string>
+    <string name="edge">Edge Wifi</string>
+    <string name="Selectname">Select Gadget name</string>
+    <string name="spinnerprompt">Select Gadget type</string>
+
+    <string name="error_msg_enter_password">Please enter password</string>
+    <string name="error_msg_enter_ssid_password">Please enter hostname and password</string>
+    <string name="error_msg_select_mode">Please select mode</string>
+    <string name="hint_title_enter_host_name">Host name</string>
+    <string name="skipbtn">Skip</string>
+    <string name="label_network_activated">(Activated)</string>
+    <string name="hint_title_enter_password">Enter Password</string>
+    <string name="dialog_title_network_setting_saved">Network settings saved successfully. Please restart app and hardware device after changing wifi connection.</string>
+    <string name="error_msg_unable_save_network_setting">Unable to Save Network Settings</string>
+    <string name="network_setting">Network Settings</string>
+    <string name="allowLocationPermission">Allow Location Permission to use app</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_view_registration">View Registration</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="schedulesDisabled">All Schedules will be disabled if you set Timer.Do you want to continue?</string>
+    <string name="Timer">Timer</string>
+    <string name="gadget_name">Gadget Name</string>
+    <string name="gadget_type">Gadget Type</string>
+    <string name="unregisterDevice">Do you want to unregister this device</string>
+    <string name="addGadget">Add Gadget</string>
+    <string name="editGadget">Edit Gadget</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_customer">Customer Service</string>
+    <!-- AboutUs Activity Start-->
+    <string name="app_version_text">Version :</string>
+    <string name="company_name">Neotech System Pvt. Ltd.</string>
+    <string name="company">Company:</string>
+    <string name="email_string">Email :</string>
+    <string name="email_id">contact@neotechindia.com</string>
+    <string name="website_string">Website :</string>
+    <string name="App_id">App ID :</string>
+    <string name="website">  www.neotechindia.com</string>
+    <string name="website_url">  http://www.neotechindia.com/</string>
+    <string name="subject">Change subject</string>
+    <string name="email_msg_body">Your message</string>
+    <string name="repeatOn">Repeat</string>
+    <string name="endTime">End Time</string>
+    <string name="startTime">Start Time</string>
+    <string name="title_activity_schedules_create">Create Schedules</string>
+    <string name="delete_schedule">Delete Schedule</string>
+    <string name="delete_running_schedule">Schedule is in running state...</string>
+    <string name="edit_running_schedule">Schedule is in running state...</string>
+    <string name="do_you_want_to_delete">Are you sure you want to delete?</string>
+    <string name="do_you_want_to_edit">Are you sure you want to edit?</string>
+    <string name="title_activity_schedules">Schedules</string>
+    <string name="timerDisabled">Timer will be disabled if you create or edit schedule.Do you want to continue?</string>
+    <integer-array name="spiner_images">
+        <item>@drawable/create</item>
+        <item>@drawable/create</item>
+        <item>@drawable/create</item>
+        <item>@drawable/create</item>
+    </integer-array>
+    <string-array name="Gadgets">
+        <item>Air Conditioner</item>
+        <item>T.v</item>
+        <item>Fan</item>
+        <item>Refrigerator</item>
+        <item>Geyser</item>
+        <item>Washing Machine</item>
+
+    </string-array>
+    <string name="colorDeviceReg">#cce5cc</string>
+    <string name="colorDeviceNotReg">#ffecef</string>
+
+    <string name="colorDevice_On_edge">#FFF0D7DB</string>
+    <string name="colorDevice_On_edge_notConnected">#FFF0D7DE</string>
+    <string name="btn_reset">Reset</string>
+    <string name="system_time">System Time:</string>
+    <string name="set_time_syn">Set Time</string>
+    <string name="timeSync">Time Sync</string>
+    <string name="timerDisabledScheduleEnabled">Timer will be disabled if you enable or disable schedule.Do you want to continue?</string>
+    <string name="imagePick">Pick Image</string>
+    <string name="firmware_upgrade">Software Upgrade</string>
+    <string name="warning_message_while_upgrade">Please ensure that all the other clients are not connected with the PlugSmart while upgrading software,otherwise software upgrade will not complete successfully.</string>
+    <string name="label_app_firmware_version">New Version</string>
+    <string name="label_iot_firmware_version">Current Version</string>
+    <string name="somethingWentWrongStation">No Device Found on this Network.</string>
+    <string name="pleaseTryAgain">Please Try Again!!!</string>
+    <string name="persnl_info">Edge Registration</string>
+    <!-- AboutUs  End-->
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1fabc7</color>
+    <color name="colorPrimaryDark">#1c98b0</color>
+    <color name="colorAccent">#1fabc7</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="spinnerDropdown">#f8fbfc</color>
+    <color name="colorDivider">#d0dbde</color>
+    <color name="grey">#58585a</color>ab
+    <color name="dialogColor">#f2f2f2</color>
+    <color name="blue_dark">#0060bf</color>
+    <color name="blue_light">#7cbdfd</color>
+    <color name="blue_gracy">#3074b5</color>
+    <color name="blue_white">#b4d8fc</color>
+    <color name="blue_header">#023e7c</color>
+    <color name="blue_navy">#15508a</color>
+    <color name="black">#000000</color>
+    <!--  <color name="colorPrimary">#82ba82</color>
+      <color name="colorPrimaryDark">#75a775</color>
+      <color name="colorAccent">#82ba82</color>-->
+</resources>

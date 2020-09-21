@@ -1,0 +1,11 @@
+<resources>
+   // (8.9,2048*1536)
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="tab_height">65dp</dimen>-->
+    <dimen name="slider_height">115dp</dimen>
+    <dimen name="dp_keypad_access">60dp</dimen>
+    <dimen name="slider_thirdPartyMargintopvalue">@dimen/dpneg6</dimen>
+    <dimen name="switch_top_text_padding">200dp</dimen>
+
+
+</resources>

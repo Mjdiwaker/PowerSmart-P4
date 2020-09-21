@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nexus 5(5.0,1080*1920)-->
+<resources>
+    <dimen name="slider_thirdPartyMargintopvalue">@dimen/dp2</dimen>
+
+</resources>

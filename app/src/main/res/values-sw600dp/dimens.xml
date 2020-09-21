@@ -1,0 +1,55 @@
+<resources>
+    <!--  sw600 Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="tab_height">62dp</dimen>-->
+    <!--<dimen name="room_height">100dp</dimen>-->
+   <!-- <dimen name="gudget_height">93dp</dimen>
+    <dimen name="gudget_icon_height">39dp</dimen>
+    <dimen name="room_icon_height">35dp</dimen>
+    <dimen name="list_height">108dp</dimen>
+    <dimen name="list_icon_height">35dp</dimen>
+    <dimen name="list_icon_status_width">200dp</dimen>
+    <dimen name="list_icon_status_height">40dp</dimen>
+    <dimen name="text_height">16sp</dimen>
+    <dimen name="text_padding">5sp</dimen>
+    <dimen name="text_padding1">3sp</dimen>
+    <dimen name="list_icon_padding">46dp</dimen>
+
+
+
+
+    &lt;!&ndash;Menu Icon &ndash;&gt;
+    <dimen name="textsize_actionbar">27sp</dimen>
+
+    <dimen name="barLength">28dp</dimen>
+    <dimen name="drawableSize">40dp</dimen>
+    <dimen name="gapBetweenBars">7dp</dimen>
+    <dimen name="arrowShaftLength">28dp</dimen>
+    <dimen name="arrowHeadLength">14dp</dimen>
+    <dimen name="ng_room1_top_margin">-20dp</dimen>
+    <dimen name="ng_room2_top_margin">-15dp</dimen>
+    <dimen name="switch_top_padding">45dp</dimen>
+    &lt;!&ndash;land&ndash;&gt;
+
+    <dimen name="tab_height_land">45dp</dimen>
+    <dimen name="list_icon_padding_land">30dp</dimen>
+    <dimen name="toolbar_height_land">68dp</dimen>
+    <dimen name="seventy_dp">120dp</dimen>
+
+    <dimen name="slider_height">100dp</dimen>
+    <dimen name="slider_curtain_hold_text_padding">85dp</dimen>
+    <dimen name="slider_width">200dp</dimen>
+    <dimen name="size_ac_mode_list">30dp</dimen>
+    <dimen name="third_party_brightness__h_w">25dp</dimen>
+    <dimen name="third_party_brightness_inc__h_w">30dp</dimen>
+    <dimen name="ac_toggle_height">30dp</dimen>
+    <dimen name="ac_toggle_width">60dp</dimen>
+    <dimen name="dp_keypad_access">60dp</dimen>
+    <dimen name="firmware_progressbar_width">250dp</dimen>
+
+    <dimen name="rangerbar_top_margin">80dp</dimen>
+    <dimen name="slider_thirdPartyMargintopvalue">-14dp</dimen>
+
+    <dimen name="switch_top_text_padding">140dp</dimen>-->
+
+
+</resources>

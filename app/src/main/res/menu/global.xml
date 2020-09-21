@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/action_settings_g" android:title="@string/action_settings"-->
+    <!--android:orderInCategory="100" app:showAsAction="always"-->
+    <!--android:icon="@drawable/ip"/>-->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:orderInCategory="100"
+        android:title="refresh"
+        app:showAsAction="always" />
+    <!--<item-->
+        <!--android:id="@+id/action_info"-->
+        <!--android:icon="@drawable/ic_info_outline_white_24dp"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="info"-->
+        <!--app:showAsAction="always" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/info_logo"-->
+        <!--android:icon="@drawable/personal_logo"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="info"-->
+        <!--app:showAsAction="always" />-->
+
+
+
+    <!--   <item
+           android:id="@+id/action_alert_g"
+           android:icon="@drawable/alert"
+           android:orderInCategory="101"
+           android:title="Alert"
+           app:showAsAction="always">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/action_power_g1"-->
+                <!--android:icon="@drawable/alert"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title=""-->
+                <!--app:showAsAction="always" />-->
+            <!--<item-->
+                <!--android:id="@+id/action_alert_g1"-->
+                <!--android:icon="@drawable/alert"-->
+                <!--android:orderInCategory="101"-->
+                <!--android:title=""-->
+                <!--app:showAsAction="always" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

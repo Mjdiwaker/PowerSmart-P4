@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="twenty">@dimen/dp20</dimen>
+    <dimen name="ten">@dimen/dp10</dimen>
+    <dimen name="fifty">@dimen/dp50</dimen>
+    <dimen name="fourty">@dimen/dp40</dimen>
+    <dimen name="averageprogress">@dimen/dp200</dimen>
+    <dimen name="two">@dimen/dp2</dimen>
+    <dimen name="toolbar_title_size">@dimen/sp16</dimen>
+    <dimen name="actionbar_height">@dimen/dp50</dimen>
+    <dimen name="fifteen">@dimen/dp15</dimen>
+    <dimen name="seven_dp">@dimen/dp70</dimen>
+    <dimen name="one">@dimen/dp1</dimen>
+    <dimen name="margin_bottom_save_cancel">@dimen/dp40</dimen>
+    <dimen name="three">@dimen/dp3</dimen>
+    <dimen name="corner_shape_registration">@dimen/dp2</dimen>
+    <dimen name="shape_registration_stroke">@dimen/dp3</dimen>
+    <dimen name="text_small">@dimen/sp11</dimen>
+    <dimen name="text_medium">@dimen/sp12</dimen>
+    <dimen name="text_large">@dimen/sp14</dimen>
+    <dimen name="text_medium_large">@dimen/sp16</dimen>
+    <dimen name="text_xlarge">@dimen/sp20</dimen>
+    <dimen name="btn_padding">@dimen/dp5</dimen>
+    <dimen name="text_padding">@dimen/dp5</dimen>
+    <dimen name="edittextforty">@dimen/dp40</dimen>
+    <dimen name="spinnerHeight">@dimen/dp20</dimen>
+    <dimen name="card_padding">@dimen/dp5</dimen>
+    <dimen name="five">@dimen/dp5</dimen>
+    <dimen name="dropProgress">@dimen/dp110</dimen>
+    <dimen name="dropProgressWidth">@dimen/dp90</dimen>
+    <dimen name="editTextPaddingLeft">@dimen/dp10</dimen>
+    <dimen name="editTextPaddingLeftForEye">@dimen/dp40</dimen>
+    <dimen name="sp_normal">@dimen/sp11</dimen>
+    <dimen name="sp_large">@dimen/sp14</dimen>
+    <dimen name="sp_xlarge">@dimen/sp18</dimen>
+    <dimen name="tank_volume">@dimen/sp12</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="switch_radius">8dp</dimen>
+    <dimen name="switch_stroke_height">0</dimen>
+    <dimen name="thumb_stroke_height">0dp</dimen>
+    <dimen name="switch_track_width">@dimen/dp10</dimen>
+    <dimen name="switch_track_height">@dimen/dp10</dimen>
+    <dimen name="thumb_track_width">@dimen/dp20</dimen>
+    <dimen name="thumb_track_height">@dimen/dp20</dimen>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_recycler"
+    android:orientation="horizontal">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:theme="@style/ToolbarStyle"
+            app:titleTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="Weather"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_Layout"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dp10">
+
+        <TextView
+            android:id="@+id/tv_sr_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="1"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/col_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="25sp"
+
+                android:text="Weather start: "
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sb_schedule1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp30"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:gravity="center"
+            app:kswThumbDrawable="@drawable/slider_handle_selector"
+            app:kswThumbHeight="@dimen/dp28"
+            app:kswThumbWidth="@dimen/dp30" />
+    </LinearLayout>
+
+
+    <TextView
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="192.168.1.1"
+        android:layout_marginTop="@dimen/dp25"
+        android:layout_below="@+id/linear_Layout"
+        android:id="@+id/enterweatherip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/enterweatherip"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Fetch Your Ip "
+        android:id="@+id/btn_weathersubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

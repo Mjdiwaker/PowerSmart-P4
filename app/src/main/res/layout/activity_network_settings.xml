@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ToolbarStyle"
+            app:titleTextColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBarLayout">
+
+
+        <LinearLayout
+            android:id="@+id/rLBaseSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp10"
+
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <FrameLayout
+                    android:id="@+id/ll_network_setting_hostname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1.8"
+
+                    android:visibility="visible">
+
+                    <Spinner
+                        android:id="@+id/spin_wifi_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:dropDownVerticalOffset="50dp"
+                        android:tag="Select wifi" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+
+                        app:passwordToggleEnabled="true">
+
+                        <EditText
+                            android:id="@+id/eTHostName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/dp40"
+
+                            android:hint="@string/hint_title_enter_host_name"
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:paddingLeft="@dimen/editTextPaddingLeft"
+
+                            android:visibility="visible"></EditText>
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </FrameLayout>
+
+
+                <ImageButton
+                    android:id="@+id/iv_refresh_wifi_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:layout_weight="0.1"
+                    android:background="@null"
+                    android:src="@drawable/ic_refresh_black_24dp" />
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="@dimen/dp5"
+                android:padding="@dimen/dp10"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/eTHostNamePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLength="30"
+                    android:maxLines="1"
+
+                    android:paddingLeft="@dimen/editTextPaddingLeft"></EditText>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <RadioGroup
+                android:id="@+id/rGConnectionMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rBApMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:layout_marginBottom="@dimen/dp5"
+                    android:gravity="center"
+                    android:padding="@dimen/dp10"
+                    android:text="@string/label_ap_mode" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/rBStationMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:padding="@dimen/dp10"
+                    android:text="@string/label_station_mode" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/edgeStationMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:padding="@dimen/dp10"
+                    android:text="@string/edge" />
+
+
+            </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/enterIp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="192.168.1.192"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/editTextPaddingLeft"
+
+                android:textAlignment="center"></EditText>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp10">
+
+                <Button
+                    android:id="@+id/btnSkip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp1"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/skipbtn"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp1"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/submitbtn"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

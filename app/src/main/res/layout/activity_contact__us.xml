@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neotechindia.plugsmart.activity.Contact_Us">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:theme="@style/ToolbarStyle"
+            app:titleTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp1"
+        android:layout_marginTop="@dimen/dp1"
+        android:layout_marginRight="1dp"
+
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/newlogoneotech"
+            android:padding="@dimen/dp20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp20">
+
+        <ImageView
+            android:id="@+id/callimage"
+            android:tint="#1880F0"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="07dp"
+            android:background="@drawable/callanswer"
+            android:duplicateParentState="true"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp20"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="+918800144844"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp20"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Mobile"
+                android:textSize="15sp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+
+        android:orientation="horizontal"
+        android:padding="@dimen/dp20">
+
+        <ImageView
+            android:id="@+id/whatsaapimage"
+            android:tint="#1880F0"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="07dp"
+            android:background="@drawable/whatsaapicon"
+            android:duplicateParentState="true"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp20"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="+918527881494"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp20"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Whatsapp"
+                android:textSize="15sp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear4"
+        android:layout_marginTop="1sp"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp20">
+
+        <ImageView
+            android:tint="#1880F0"
+            android:id="@+id/emailimage"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="07dp"
+            android:background="@drawable/mail"
+            android:duplicateParentState="true"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp20"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="contact@neotechindia.com"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp20"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Email"
+                android:textSize="15sp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
